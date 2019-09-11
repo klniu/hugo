@@ -1,0 +1,26 @@
+baseURL = "https://blog.klniu.com/"
+languageCode = "zh-CN"
+title = "勿慢牛的博客"
+theme = "maupassant"
+
+[author]
+  name = "勿慢牛"
+
+[params]
+  author = "勿慢牛"
+  subtitle = "专注于技术难题的解决方法与其他自认关键的内容分享"
+  keywords = "golang,java,android,python,hse,ehs"
+  description = "专注于安全智能化"
+
+[menu]
+  [[menu.main]]
+    identifier = "archives"
+    name = "归档"
+    url = "/archives/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "about"
+    name = "关于"
+    url = "/about/"
+    weight = 4
